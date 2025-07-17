@@ -2,6 +2,20 @@
 
 This project provides a minimal React template with a clean, modern UI and minimal dependencies.
 
+---
+
+## Notes Management Frontend
+
+This app implements a fully functional notes manager with user authentication, CRUD for notes, search, sort, and note organization via folders/tags.
+- Connects to REST backend (`notes_backend`)
+- Uses the backend URL in `.env` (`REACT_APP_BACKEND_URL`)
+
+**Theme/Colors**:  
+- Primary: #1565c0  
+- Secondary: #64b5f6  
+- Accent: #ffca28  
+- Modern minimal layout: sidebar for folders/tags, top navbar, responsive
+
 ## Features
 
 - **Lightweight**: No heavy UI frameworks - uses only vanilla CSS and React
